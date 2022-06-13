@@ -43,7 +43,7 @@ class GetImage():
         return image_url
     def get_image(self,image_url):
         ##根据图片url，存入图片
-        file_name = os.path.join(".",self.keyword)
+        file_name = os.path.join("", self.keyword)
         #print(file_name)
         if not os.path.exists(file_name):
             os.makedirs(file_name)
