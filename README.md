@@ -7,6 +7,9 @@ python自己学习
 3.6
 
 ## 需求库
+
 os
+
 numpy
+
 等
