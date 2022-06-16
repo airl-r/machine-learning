@@ -12,4 +12,6 @@ os
 
 numpy
 
+sklearn
+
 等
