@@ -16,11 +16,11 @@ from sklearn import  linear_model
 
 
 ## 下载之后注释掉
-
+'''
 wget.download(url='https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.data',out= 'housing.data')
 wget.download(url='https://archive.ics.uci.edu/ml/machine-learning-databases/housing/housing.names',out='housing.names')
 wget.download(url='https://archive.ics.uci.edu/ml/machine-learning-databases/housing/Index',out='Index')
-
+'''
 '''
     1. CRIM      per capita crime rate by town
     2. ZN        proportion of residential land zoned for lots over 

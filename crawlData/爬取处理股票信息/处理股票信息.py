@@ -38,7 +38,6 @@ def get_diff(file_name):
 
     x = data['日期'].values.tolist()
     x.reverse()
-
     xticks = list(range(0,len(x),sep))
     xlabels = [x[i] for i in xticks]
     xticks.append(len(x))

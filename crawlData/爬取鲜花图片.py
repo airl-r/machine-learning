@@ -21,8 +21,7 @@ class GetImage():
 
         for i in range(1,self.paginator+1):
             params.append(
-                #'tn=resultjson_com&ipn=rj&ct=201326592&is=&fp=result&queryWord={}&cl=2&lm=-1&ie=utf-8&oe=utf-8&adpicid=&st=-1&z=&ic=&latest=0&copyright=0&word={}&s=&se=&tab=&width=&height=&face=0&istype=2&qc=&nc=1&fr=&expermode=&force=&cg=star&pn={}&rn=30&gsm=78&1557125391211='.format(keyword,keyword,30*i)
-                'tn=resultjson_com&logid=10338332981203604364&ipn=rj&ct=201326592&is=&fp=result&fr=&word={}&queryWord={}&cl=2&lm=-1&ie=utf-8&oe=utf-8&adpicid=&st=&z=&ic=&hd=&latest=&copyright=&s=&se=&tab=&width=&height=&face=&istype=&qc=&nc=1&expermode=&nojc=&isAsync=&pn={}&rn=30&gsm=78&1650241802208='.format(keyword,keyword,30*i)
+               'tn=resultjson_com&logid=10338332981203604364&ipn=rj&ct=201326592&is=&fp=result&fr=&word={}&queryWord={}&cl=2&lm=-1&ie=utf-8&oe=utf-8&adpicid=&st=&z=&ic=&hd=&latest=&copyright=&s=&se=&tab=&width=&height=&face=&istype=&qc=&nc=1&expermode=&nojc=&isAsync=&pn={}&rn=30&gsm=78&1650241802208='.format(keyword,keyword,30*i)
 
             )
         return params
@@ -64,7 +63,7 @@ class GetImage():
 
 
 if __name__ == '__main__':
-    spider = GetImage('鲜花',3)
+    spider = GetImage('中国艺人',3)
     spider()
 
 
