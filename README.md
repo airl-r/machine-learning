@@ -1,6 +1,7 @@
 # python_work
 
 ## 用途
+
 python自己学习使用
 
 ## python版本
