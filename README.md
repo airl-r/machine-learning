@@ -1,7 +1,8 @@
 # python_work
 
 ## 用途
-python自己学习
+
+python自己学习使用
 
 ## python版本
 3.6
@@ -26,4 +27,10 @@ sklearn
 
 明星图片爬取
 
+
+### 线性回归预测分析
+
+### K-means聚类分析
+
+### 手写数字识别
 
