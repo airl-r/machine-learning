@@ -72,6 +72,7 @@ plt.show()
 2、对这k个中心进行聚类
 3、重复1、2，知道中心达到稳定
 '''
+
 ### 欧氏距离计算
 def distEclud(x,y):
     return np.sqrt(np.sum((x-y)**2))

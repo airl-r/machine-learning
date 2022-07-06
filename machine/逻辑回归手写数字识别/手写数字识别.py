@@ -69,7 +69,8 @@ def show_image(imgdata, imgtarget, show_column, show_row,titlename):
         plt.title(titlename+':%i' % it)
 
     # plt.savefig(titlename+'.png')
-    plt.show() # 这个地方可能会有一个警告，可能因为图太大了，不过没关系，代码正常运行
+    # 这个地方可能会有一个警告，可能因为图太大了，不过没关系，代码正常运行
+    plt.show()
 
 
 
