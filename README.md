@@ -1,8 +1,16 @@
 # python_work
 
+
+***
+
 ## 用途
 
 python自己学习使用
+
+
+***
+
+***
 
 ## python版本
 3.6
@@ -20,11 +28,22 @@ matplotlib
 
 等
 
+
+***
+
 ## 内容
+
+***
 
 ## 工具类
 
+
 修改文件名称代码
+
+
+***
+## 数据获取
+
 
 ### 爬虫
 
@@ -35,6 +54,16 @@ matplotlib
 
 明星图片爬取
 
+### 百度飞桨
+
+https://aistudio.baidu.com/aistudio/datasetoverview
+
+
+https://www.paddlepaddle.org.cn/documentation/docs/zh/api/paddle/text/UCIHousing_cn.html
+
+
+
+***
 
 ## 机器学习
 
@@ -47,6 +76,8 @@ matplotlib
 
 
 ### 支持向量机（SVM） 鸢尾花分类
+
+***
 
 
 ## 深度学习 DNN
