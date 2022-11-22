@@ -98,7 +98,7 @@ model = MyDNN()
 model.train()
 mse_loss = paddle.nn.MSELoss()
 opt = paddle.optimizer.SGD(learning_rate=0.001, parameters=model.parameters())
-epochs_num = 300
+epochs_num = 100
 
 
 for epochs in range(epochs_num):
@@ -121,12 +121,13 @@ draw_train_loss(Batchs,all_train_loss)
 
 
 
-
 para_state = paddle.load("UCIHousingDNN")
 model = MyDNN()
 model.eval()
 model.set_state_dict(para_state)
 losses = []
+
+
 for batch_id,data in enumerate(eval_loader()):
     feature = data[0]
     label = data[1]
@@ -134,4 +135,8 @@ for batch_id,data in enumerate(eval_loader()):
     loss = mse_loss(predict,label)
     losses.append(loss.numpy()[0])
 avg_loss = np.mean(losses)
+
 print(avg_loss)
+
+
+draw_infer_result(label,predict)
